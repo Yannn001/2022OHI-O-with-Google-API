@@ -1,4 +1,4 @@
-package com.osu_bus_api;
+package com.cabsApi.webApp.cabsApiJsonClasses;
 
 import java.util.List;
 import javax.annotation.processing.Generated;

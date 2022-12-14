@@ -1,4 +1,4 @@
-package com.osu_bus_api;
+package com.cabsApi.webApp.cabsApiJsonClasses;
 
 import javax.annotation.processing.Generated;
 import com.google.gson.annotations.Expose;
