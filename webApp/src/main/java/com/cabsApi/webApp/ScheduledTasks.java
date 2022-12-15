@@ -39,7 +39,10 @@ public class ScheduledTasks {
         // Parse Json using Gson
         Result result = gson.fromJson(json, Result.class);
         //initialize prevPredictionCountdown to "DUE" so that the first predictionCountdown could be stored.
-
+        Vehicle bus = result.getData().getVehicles().get(1);
+        for (Prediction prediction : bus.getPredictions()) {
+            System.out.println("Stop Name = " + prediction.getStopName());
+        }
         // Get data from OSU API
         //for (Vehicle bus : result.getData().getVehicles()) {
         if(flag) {
